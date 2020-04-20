@@ -24,5 +24,15 @@ module.exports = {
     const users = await User.find();
 
     return res.json(users);
+  },
+
+  async show(req, res) {
+    const { email, password } = req.query;
+
+    let user = await User.find({ email, password });
+
+    if (!user) return res.status(404).json({ error: "usuario não encontrado" });
+
+    return res.json(user);
   }
 };
