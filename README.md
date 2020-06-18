@@ -19,6 +19,6 @@
   - envio de imagem
   - resgate desses dados
 
-### `:construction: ainda em desenvolvimento`
+### :construction: ainda em desenvolvimento
 
 > o projeto ainda ira integrar com o AWS para não precisar salvar os arquivos de imagens no proprio computador
