@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img src="https://img.icons8.com/color/48/000000/share.png"/>
+  <img src="https://img.icons8.com/color/144/000000/share.png"/>
   <br/>
   <b>Backend para posts de imagens com usuarios</b>
 </h3>
